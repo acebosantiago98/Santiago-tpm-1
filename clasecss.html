@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     p {
+            color: red;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 36px;
+           /* font-weight: 500;
+            font-style: italic;*/
+        }
+        /*Texto en negrita y cursiva*/
+        .negritaCursiva {
+            font-weight: bold;
+            font-style: italic;
+        }
+        /*Texto sin negrita ni cursiva*/
+        #SincursivaNiNegrita {
+            font-weight: normal;
+            font-style: normal;
+            color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+    <section class="negritaCursiva">
+        <p style="color: rgb(0, 26, 255);">
+            Este es un párrafo de ejemplo para la <span class="negritaCursiva">página TPM-1</span>.
+        </p>
+        <p>
+            hola otra vez
+        </p>
+        <p id="SincursivaNiNegrita">
+            Este <span class="negritaCursiva">es un párrafo de ejemplo</span> para la página TPM-1.
+        </p>
+    </section>
+    <section>
+        <p>
+            Este es un párrafo de ejemplo para la página TPM-1.
+        </p>
+    </section>
+    
+</body>
+</html>
